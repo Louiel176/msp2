@@ -1,0 +1,22 @@
+{
+  "name": "msp2",
+  "version": "1.0.0",
+  "description": "The goal for this project is to make an easy to use child friendly game to entertain users. This project has a target audience of children, teenagers and adults, this is because it is a simple memory game that would benefit children and teenagers with their memory development. The reason for adults being apart of the target audience is because the original Simon game came out in 1978 so for some users it will be nostalgic. All target audiences should find the game entertaining and challenging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louiel176/msp2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Louiel176/msp2/issues"
+  },
+  "homepage": "https://github.com/Louiel176/msp2#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}

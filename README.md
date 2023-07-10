@@ -1,108 +1,106 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 2
+## ux:
+### Project goals:
+The goal for this project is to make an easy to use child friendly game to entertain users. This project has a target audience of children, teenagers and adults, this is because it is a simple memory game that would benefit children and teenagers with their memory development. The reason for adults being apart of the target audience is because the original Simon game came out in 1978 so for some users it will be nostalgic. All target audiences should find the game entertaining and challenging.
 
-Welcome USER_NAME,
+Simon is a great game for users to test their memory. The game should meet the users requirements by following the player goals that are set below.
+#### Player goals:
+- A game that is fun for all ages
+- Child friendly
+- Large colourful buttons that are easy to recognise
+- Clickable areas
+- Instruction page with all controls and how to play
+- All game controls laid out clear and easy to understand on the 'How to play' page
+- Clear easy to recognise button flashes
+- The planning and design process took all the users needs into account
+- popup boxes for incorrect answers
+## Structure:
+The structure for this project is going to be appealing and easy to use by the users. The website is going to be comprised of 3 pages, the landing page, the how to play page and the game page. All three pages will have a navigation bar and links to social media. The social links once clicked will open on a new page so that the website can still be up and running on the users device without them having to reload the website. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Landing page will consist of the navigation bar, the name of the game with a brief description of what the game is and finally there will be social links in the footer element. The landing page will be consisting of the original Simon colours.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+The How to play page will consist of the navigation bar, the page will also have a box describing how to play with the controls and an explaination of how the levels work and how to change them. The page will also have the social links in the footer element. 
 
-## Gitpod Reminders
+The final page which will be the game page will consist of the the navigation bar and the socail links in the footer like the landing and the how to play page. The page will also have the simon game with different levels on the page, along with the simon game the page will also have a drop down menu for the users to select different levels form 1 to 5 this will add new coloured buttons to the game with each level adding a new button and colour.
+## Design:
+### Desktop:
+#### Landing page:
+![Landing Page wireframe](https://share.balsamiq.com/c/cCF1jMWPU3tpg1wx3ZqPZt.png)
+#### How to play page:
+![How to play page wireframe](https://share.balsamiq.com/c/hjVUqueW6GV8qtePDjpueu.png)
+#### Game page:
+##### Level 1:
+![Game page level 1 wireframe](https://share.balsamiq.com/c/o7NkdPagWCeVDi81xTXKrC.png)
+##### Level 2:
+![Game page level 2 wireframe](https://share.balsamiq.com/c/hA4jnEG4Yyxjay8zYFqnQJ.png)
+##### Level 3:
+![Game page level 3 wireframe](https://share.balsamiq.com/c/abokuUUBLc9SR9o766mMo7.png)
+##### Level 4:
+![Game page level 4 wireframe](https://share.balsamiq.com/c/nQvVve4ENfNHwFVH4g6rGR.png)
+##### Level 5:
+![Game page level 5 wireframe](https://share.balsamiq.com/c/kERM9YhZcWeN9BHQufpEFX.png)
+### Mobile:
+#### Landing page:
+![Landing page mobile wireframe](https://share.balsamiq.com/c/72s5TSvPRpoSskzvcMfkVN.png)
+#### How to play page:
+![How to play mobile wireframe](https://share.balsamiq.com/c/4EJjR7fAT8M8YGQb4rSQjs.png)
+#### Game page:
+##### Level 1:
+![Game page level 1 mobile wireframe](https://share.balsamiq.com/c/dH22nYEGpPsCcMHmPbQrVn.png)
+##### Level 2:
+![Game page level 2 mobile wireframe](https://share.balsamiq.com/c/9s1mwRpBwfDBBYeJzcWzDP.png)
+##### Level 3:
+![Game page level 3 mobile wireframe](https://share.balsamiq.com/c/hhfC2fxeV8zQHJ4biAZzMT.png)
+##### Level 4:
+![Game page level 4 mobile wireframe](https://share.balsamiq.com/c/9XLhHC8DxehFgpyAQFk8j9.png)
+##### Level 5:
+![Game page level 5 mobile wireframe](https://share.balsamiq.com/c/mdNBYGGD81E4BrjW33PU9e.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Colour:
 
-`python3 -m http.server`
+The colours that have been used are contrasting colours, this meets the users requirements as it allows for easier reading and visuals on the website. This also allows the user to easily recognise different elements in the website. The colours that are being used are dark greys and lighter colours to create a contrasting colour scheme, the colours that have been used are as followed:
 
-A blue button should appear to click: _Make Public_,
+- #2D232E this is a dark grey colour used for the background of most elements it has been used in the navigation bar and footer. The colour has also been used as backgrounds for different elements throughout the website. 
 
-Another blue button should appear to click: _Open Browser_.
+- #5fad56 this is a green colour that has been used to add more detail to the website to enhance the visuals of the website and break up different sections.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- 
 
-A blue button should appear to click: _Make Public_,
+## References:
+### Coding:
+ https://getbootstrap.com/docs/4.2/components/dropdowns/
+ dropdown menu and links
+ MSP1
 
-Another blue button should appear to click: _Open Browser_.
+### Images:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+## Testing:
+### Tests with Jest:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Bugs:
 
-------
 
-## Release History
+## Limitations:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features:
+### Existing features:
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Future features to implement:
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Technologies:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Developer tests:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### User tests:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Deployment:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!

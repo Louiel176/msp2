@@ -1,0 +1,190 @@
+/*--global--*/
+body {
+    background-color: #A0CED9;
+    height: auto;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    font-size: larger;
+    text-transform: uppercase;
+    background-color: #2D232E;
+    color: #fff;
+    border-style: double;
+    border-color: #5fad56;
+    flex-direction: column;
+    padding: 5px;
+}
+.row {
+    background-color: #2D232E;
+}
+
+.col {
+    padding: 0;
+    text-align: center;
+}
+
+.col-sm {
+    padding: 0;
+    height: 100%;
+}
+
+h4 {
+    color: #fff;
+}
+
+.socialLinks {
+    float: right;
+    color: #119822;
+    margin-right: 50px;
+}
+
+/*--home--*/
+.gameName {
+    width: 100%;
+    height: auto;
+    background-color: #2D232E;
+    color: #fff;
+    border-style: groove;
+    border-color: #5fad56;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.gameName h1 {
+    text-align: center;
+}
+
+.gameExplaination {
+    width: 100%;
+    height: auto;
+    background-color: #2D232E;
+    color: #fff;
+    border-style: groove;
+    border-color: #5fad56;
+    padding: 10px;
+    margin: auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+.colour {
+    width: 100%;
+    height: 100%;
+}
+/*--how-to-play--*/
+
+.HTP {
+    width: 100%;
+    height: 100%;
+    background-color: #2D232E;
+    color: #fff;
+    border-style: groove;
+    border-color: #5fad56;
+    padding: 15px;
+    margin: auto;
+}
+
+.HTP > h2 {
+    padding-bottom: 10px;
+}
+
+.HTP > p {
+    margin: 10px;
+    text-align: left;
+}
+
+#grey {
+    background-color: #2D232E;
+    border-style: groove;
+    border-color: #5fad56;
+}
+
+.img {
+    padding: 10px;
+}
+
+/*--game--*/
+.simonGame {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.colour1 {
+    height: 500px;
+    width: 500px;
+    background-color: darkgoldenrod;
+}
+
+.colour2 {
+    height: 400px;
+    width: 400px;
+    background-color: darkgreen;
+    top: 100px;
+    left: 100px;
+}
+
+.colour3 {
+    height: 300px;
+    width: 300px;
+    background-color: #EFB920;
+    top: 150px;
+    left: 150px;
+}
+
+.colour4 {
+    height: 200px;
+    width: 200px;
+    background-color: #23BBBB;
+    top: 200px;
+    left: 150px; 
+}
+/*REPOSITION COLOURS*/
+/*
+
+.colour5 {
+
+}
+
+.colour6 {
+
+}
+
+.colour7 {
+
+}
+
+.colour8 {
+
+}
+
+.reset {
+
+}
+
+
