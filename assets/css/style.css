@@ -40,6 +40,10 @@ h4 {
     margin-right: 50px;
 }
 
+#gameF {
+    margin-top: 200px;
+}
+
 /*--home--*/
 .gameName {
     width: 100%;
@@ -119,6 +123,11 @@ h4 {
 }
 
 /*--game--*/
+
+.btn-group-lg>.btn, .btn-lg{
+    margin: 10px 15px;
+}
+
 .simonGame {
     position: relative;
     width: 500px;
@@ -127,6 +136,20 @@ h4 {
     margin-right: auto;
     margin-bottom: 35px;
     text-align: center;
+}
+
+.scorebox {
+    border-radius: 30%;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 325px;
+    left: 200px;
+    text-align: center;
+    background-color: #2f2631;
+    color: #fff;
+    font-size: 4em;
 }
 
 .circle {
@@ -145,27 +168,26 @@ h4 {
     height: 400px;
     width: 400px;
     background-color: darkgreen;
-    top: 100px;
-    left: 100px;
+    top: 175px;
+    left: 50px;
 }
 
 .colour3 {
     height: 300px;
     width: 300px;
     background-color: #EFB920;
-    top: 150px;
-    left: 150px;
+    top: 225px;
+    left: 100px;
 }
 
 .colour4 {
     height: 200px;
     width: 200px;
     background-color: #23BBBB;
-    top: 200px;
+    top: 275px;
     left: 150px; 
 }
-/*REPOSITION COLOURS*/
-/*
+
 
 .colour5 {
 
@@ -184,7 +206,7 @@ h4 {
 }
 
 .reset {
-
+    margin: 15px;
 }
 
 

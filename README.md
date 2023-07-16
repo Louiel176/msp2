@@ -76,7 +76,11 @@ The colours that have been used are contrasting colours, this meets the users re
 
 
 ## Testing:
+To test the website for this project I will be using jest to help with testing to show that the code is working as intended and it will also show if a test fails, using jest to test the code helps with predetermining what different errors may occur due to the use of JavaScript.
 ### Tests with Jest:
+![button_test_fail](//assets/images/btnfail.PNG)
+The test above shows that the test failed as the testing page didn't have quotation marks around each of the choices.
+![button_test_pass](//assets/images/btnpass.PNG)
 
 
 ### Bugs:
