@@ -1,7 +1,7 @@
 /*--global--*/
 body {
     background-color: #A0CED9;
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 
@@ -42,6 +42,7 @@ h4 {
 
 #gameF {
     margin-top: 200px;
+
 }
 
 /*--home--*/
@@ -124,6 +125,10 @@ h4 {
 
 /*--game--*/
 
+h1 {
+    margin: 10px;
+}
+
 .btn-group-lg>.btn, .btn-lg{
     margin: 10px 15px;
 }
@@ -131,7 +136,7 @@ h4 {
 .simonGame {
     position: relative;
     width: 500px;
-    height: 450px;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 35px;
@@ -162,6 +167,7 @@ h4 {
     height: 500px;
     width: 500px;
     background-color: darkgoldenrod;
+    top: 125px;
 }
 
 .colour2 {
@@ -190,19 +196,39 @@ h4 {
 
 
 .colour5 {
-
+    height: 600px;
+    width: 600px;
+    background-color: #654555;
+    top: 75px;
+    left: -50px;
 }
 
 .colour6 {
-
+    height: 700px;
+    width: 700px;
+    background-color: #446556;
+    top: 25px;
+    left: -90px;
 }
 
 .colour7 {
-
+    height: 800px;
+    width: 800px;
+    background-color: #4050e4;
+    top: -25px;
+    left: -140px;
 }
 
 .colour8 {
+    height: 900px;
+    width: 900px;
+    background-color: #cf3d10;
+    top: -75px;
+    left: -190px;
+}
 
+.flash {
+    opacity: 0.6;
 }
 
 .reset {

@@ -71,6 +71,7 @@ The colours that have been used are contrasting colours, this meets the users re
  https://getbootstrap.com/docs/4.2/components/dropdowns/
  dropdown menu and links
  MSP1
+ jswithjest
 
 ### Images:
 
@@ -78,13 +79,44 @@ The colours that have been used are contrasting colours, this meets the users re
 ## Testing:
 To test the website for this project I will be using jest to help with testing to show that the code is working as intended and it will also show if a test fails, using jest to test the code helps with predetermining what different errors may occur due to the use of JavaScript.
 ### Tests with Jest:
-![button_test_fail](//assets/images/btnfail.PNG)
+![button_test_fail](/assets/images/btnfail.PNG)
+
 The test above shows that the test failed as the testing page didn't have quotation marks around each of the choices.
-![button_test_pass](//assets/images/btnpass.PNG)
+
+![button_test_pass](/assets/images/btnpass.PNG)
+
+Error found when running an npm test.
+
+![export_fail](/assets/images/moduleloads.PNG)
+
+The test above shows that the userturn has been inputted twice which is causing an error, making the test fail. 
+
+![export_pass](/assets/images/moduleloadspass.PNG)
+
+The screenshot below shows a failure in the test caused by incorrect variable names
+
+![turn_update_fail](/assets/images/turnUpdatefail.PNG)
+
+The code should have been game.tNumber instead of game.turn as the test is testing for an update in the turn number
+
+![turn_update_pass](/assets/images/turnUpdatepass.PNG)
+
+This failed test also alerted me that the JS code was wrong as the object game contained the variable turn.
+
+![turn_variable](/assets/images/turn_variable.PNG)
+
+The variable was being called in the code as tNumber so the variable had to be changed so that the names matched up and was correct.
+
+![turn_variable_update](/assets/images/turn_variable_update.PNG)
 
 
 ### Bugs:
+Over the course of developing this website I have encountered a few bugs, some of the bugs that I have encountered are from the html pages. 
+The bugs that have been encountered are as such:
 
+- The footer element not sitting correctly on the game pages, the footer element crosses paths with the game and with the extra levels this creates extra bugs as adding code to change where the footer elements sits only works for one of the levels but not the rest or creates too much white space. 
+
+- The new game button and the game title also created some issues while in the same div element as the game to fix this bug I have rearranged the layout of the website so that both the button and the title are both visable. 
 
 ## Limitations:
 

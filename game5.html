@@ -27,22 +27,26 @@
             Level 
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item active" id="level1" href="game.html">Level 1</a>
+            <a class="dropdown-item" id="level1" href="game.html">Level 1</a>
             <a class="dropdown-item" id="level2" href="game2.html">Level 2</a>
             <a class="dropdown-item" id="level3" href="game3.html">Level 3</a>
             <a class="dropdown-item" id="level4" href="game4.html">Level 4</a>
-            <a class="dropdown-item" id="level5" href="game5.html">Level 5</a>
+            <a class="dropdown-item active" id="level5" href="game5.html">Level 5</a>
         </div>
     </div>
     <div class="simonGame">
 
-        
+        <div class="game">
+        <div data-listener="false" class="circle colour8" id="btn8"></div>
+        <div data-listener="false" class="circle colour7" id="btn7"></div>
+        <div data-listener="false" class="circle colour6" id="btn6"></div>
+        <div data-listener="false" class="circle colour5" id="btn5"></div>
         <div data-listener="false" class="circle colour1" id="btn1"></div>
         <div data-listener="false" class="circle colour2" id="btn2"></div>
         <div data-listener="false" class="circle colour3" id="btn3"></div>
         <div data-listener="false" class="circle colour4" id="btn4"></div>
         <div class="scorebox" id="score">0</div>
-        
+        </div>
     </div>
     <h1>Simon</h1>
     <button class="reset" onclick="newGame()">New Game</button>

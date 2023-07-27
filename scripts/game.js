@@ -2,16 +2,48 @@ let game = {
     score: 0,
     current: [],
     pMoves: [],
-    turn: 0,
+    tNumber: 0,
     lastButton: "",
     tInProgress: false,
+    num: 4,
     choices: ["btn1", "btn2", "btn3", "btn4"]
 }
+
+
+/*function level (game.num){
+    let activeElementId = document.querySelector('.active').getAttribute('id');
+    console.log(activeElementId);
+    if (activeElementId == "level1"){
+        let num = 4;
+        return num;
+    }
+    else if (activeElementId == "level2"){
+        let num = 5;
+        return num;
+    }
+    else if (activeElementId == "level3"){
+        let num = 6;
+        return num;
+    }
+    else if (activeElementId == "level4"){
+        let num = 7;
+        return num;
+    }
+    else if (activeElementId == "level5"){
+        let num = 8;
+        return num;
+    }
+    else{
+        let num = 4;
+        return num;
+    }
+};
+level();*/
 
 function newGame() {
     game.current = []; /*takes the game object and selects specific objects from the game object and assigns a new value*/
     game.pMoves = [];
-    score = 0
+    game.score = 0;
 
     for (let circle of document.getElementsByClassName("circle")) {
         if (circle.getAttribute("data-listener") !== "true") {
@@ -21,20 +53,20 @@ function newGame() {
                     game.lastButton = move;
                     game.pMoves.push(move);
                     lights(move);
-                    playerTurn();
+                    userTurn();
                 }
             });
             circle.setAttribute("data-listener", "true");
         }
     }
-    score();
+    Score();
     addTurn();
 
 }
 
-function addTurn() {
+function addTurn(num) {
     game.pMoves = [];
-    game.current.push(game.choices[(Math.floor(Math.random() * 4))]);
+    game.current.push(game.choices[(Math.floor(Math.random() * game.num))]);
     turns();
 }
 
@@ -52,27 +84,27 @@ function turns() {
 }
 
 function lights(a) {
-    document.getElementById(a).classList.add("light");
+    document.getElementById(a).classList.add("flash");
     setTimeout(function () {
-        document.getElementById(a).classList.remove("light");
+        document.getElementById(a).classList.remove("flash");
     }, 400);
 }
 
-function playerTurn() {
+function userTurn() {
     let i = game.pMoves.length - 1;
     if (game.current[i] === game.pMoves[i]) {
         if (game.current.length === game.pMoves.length) {
             game.score++;
-            score();
+            Score();
             addTurn();
         }
     } else {
-        alert("Wrong move!");
+        alert("Nope!! try to beat your previous score of" + game.score);
         newGame();
     }
 }
 
-function score() {
+function Score() {
     document.getElementById("score").innerText = game.score;
 }
 
@@ -83,4 +115,4 @@ function score() {
 
 
 
-module.exports = { game, newGame, addTurn, turns, lights, playerTurn, score } // Exports values from the JS file
+module.exports = {game, newGame, addTurn, turns, lights, userTurn, Score} // Exports values from the JS file
