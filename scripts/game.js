@@ -2,7 +2,7 @@ let game = {
     score: 0,
     current: [],
     pMoves: [],
-    tNumber: 0,
+    turn: 0,
     lastButton: "",
     tInProgress: false,
     num: 4,

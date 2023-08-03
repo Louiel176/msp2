@@ -118,25 +118,74 @@ The bugs that have been encountered are as such:
 
 - The new game button and the game title also created some issues while in the same div element as the game to fix this bug I have rearranged the layout of the website so that both the button and the title are both visable. 
 
+Some off the bugs encountered have also been due to jest and incorrect variable names being used in functions, the bugs have been listed in tests with jest.
+
+Other bugs that have been encountered is when deciding how to code the different levels into the JavaScript when executing the code that was written to take the level selected and converted it into the a variable to send to the addTurn function so that the code that selects the random button will be able to select any of the buttons that are on screen for that specific level.
+
+![randomisation_code](/assets/images/randomisationCode.PNG)
+
+
+
+
 ## Limitations:
 
+The fifth level has had to be taken out of the game as the game takes up too much space when there are eight buttons, the buttons overlaps the navigation bar and doesn't fit on the screen. The footer element also didn't fit on the game pages as it didn't position correctly even when repositioning it using CSS. 
 
 ## Features:
 ### Existing features:
 
+- Drop down menu - this has been used on the game pages as it allows the user to select different levels.
+
+- Interactive game - the game has been developed to meet the users needs, the game uses buttons as the an interactive element that the user can click on to play the game. The other interactive elements are that the buttons flash to show the user the sequence to follow during the game. The game also uses a score counter that increments by one every time the user is correct, if the user is incorrect the code uses this counter to tell the user what their score was for that round. 
 
 ### Future features to implement:
 
+Future features that I would like to implement are adding different memory games to the website, as well as adding new levels which will change the colours of the buttons on each level of the sequence, so this means once one button is selected for the sequence it will then change the colours of the buttons and add another button to the sequence this will continue until the user makes a mistake or starts a new game. Another feature that I would like to impliment will be a score board page where the users can see the highest scores of other users as well as there own high scores.
 
 ## Technologies:
+
+- HTML - This is the main language used to build the base website, the HTML technologies being used is HTML/HTML5
+
+- CSS - This is the language used to style the whole website, the CSS technologies being used is CSS/CSS3
+
+- JavaScript - This language is used to create the interactivity element to the website, this has been used mainly for the game side of the website
+
+- Jest - This is the JavaScript testing framework that has been used to test whether the JavaScript element are working as they are intended to do so
+
+- Balsamiq - This is a framework software that has been used to design the website before the website was built
+
+- Bootstrap - This is a technology that allows for preprogrammed code to be used
+
+- Font awesome - This technology allows for the use of icons on the website it is being used for social icons such as the Facebook icon
+
+- pngwing.com - This is a website that has been used to get stock images
+
+- Coolors - This technology being used is to select different colours with their hex code provided
+
+- Gitpod - This is the technology being used to develop the code for the project
+
+- Github - This is the technology being used to store the code developed on Gitpod
+
+- Developers tools - This technology is being used to update the website live when it has been previewed 
 
 ## Testing:
 
 ### Developer tests:
+The testing being used is a JavaScript framework Jest this has been used to test the JavaScript code, the tests are in the test file which is in the Scripts file all the tests that have been checked are runnable through the code using "npm test" to run them in the command terminal. 
+
+![Tests](/assets/images/testsPass.PNG)
+
+Other tests that have been done are to test the reponsiveness of the website by reducing the screen size both with the use of developer tools and with just general resizing of the website page itself. 
+
+With the use of a HTML validator the project has been updated so that the HTML is valid, the errors that have occured are ones that don't affect the code in any major way and will not create more errors such as some extra syntax that didn't need to be there. The HTML validator that has been used is ![HTML validator](https://validator.w3.org)
+
+With the use of a CSS validator the project has been confirmed that the CSS was valid, the CSS validator that has been used is ![CSS validator](https://jigsaw.w3.org/css-validator/)
+
 
 
 ### User tests:
 
+With user testing the feedback that was returned is the level 5 didn't fit on the page correctly, due to this level 5 wasn't as enjoyable as the rest of the levels, not only this but the website was abit basic and that the website should include other memory games to entise users to come back and play the different games. The users that have tested the project also thought that a score board would be a great feature to add to add another competitive aspect to the game. One of the users said that the buttons could be more vibrant colours to attract more users and to make it easier to differentiate between the buttons that are flashing. 
 
 ## Deployment:
 
