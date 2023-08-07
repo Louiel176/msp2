@@ -5,7 +5,7 @@ let game = {
     turn: 0,
     lastButton: "",
     tInProgress: false,
-    choices: ["btn1", "btn2", "btn3", "btn4"]
+    choices: ["btn1", "btn2", "btn3", "btn4", "btn5", "btn6", "btn7"]
 }
 
 function newGame() {
@@ -34,7 +34,7 @@ function newGame() {
 
 function addTurn(num) {
     game.pMoves = [];
-    game.current.push(game.choices[(Math.floor(Math.random() * 4))]);
+    game.current.push(game.choices[(Math.floor(Math.random() * 7))]);
     turns();
 }
 
@@ -75,12 +75,3 @@ function userTurn() {
 function Score() {
     document.getElementById("score").innerText = game.score;
 }
-
-
-
-
-
-
-
-
-module.exports = {game, newGame, addTurn, turns, lights, userTurn, Score} // Exports values from the JS file
