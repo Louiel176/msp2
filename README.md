@@ -124,6 +124,8 @@ Other bugs that have been encountered is when deciding how to code the different
 
 ![randomisation_code](/assets/images/randomisationCode.PNG)
 
+Another bug that has been encountered was that the mobile responsiveness didn't fully work properly as the buttons didn't fall into place when screen size was reduced.  
+
 
 
 
@@ -141,6 +143,8 @@ The fifth level has had to be taken out of the game as the game takes up too muc
 ### Future features to implement:
 
 Future features that I would like to implement are adding different memory games to the website, as well as adding new levels which will change the colours of the buttons on each level of the sequence, so this means once one button is selected for the sequence it will then change the colours of the buttons and add another button to the sequence this will continue until the user makes a mistake or starts a new game. Another feature that I would like to impliment will be a score board page where the users can see the highest scores of other users as well as there own high scores.
+
+Another feature to impliment will be a back end one that will allow the website to load faster, this will be done by reducing the amount of code as well as pages, instead of using multiple JS pages the project will only use one. 
 
 ## Technologies:
 
@@ -186,6 +190,7 @@ With the use of a CSS validator the project has been confirmed that the CSS was 
 ### User tests:
 
 With user testing the feedback that was returned is the level 5 didn't fit on the page correctly, due to this level 5 wasn't as enjoyable as the rest of the levels, not only this but the website was abit basic and that the website should include other memory games to entise users to come back and play the different games. The users that have tested the project also thought that a score board would be a great feature to add to add another competitive aspect to the game. One of the users said that the buttons could be more vibrant colours to attract more users and to make it easier to differentiate between the buttons that are flashing. 
+
 
 ## Deployment:
 
