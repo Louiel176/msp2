@@ -64,17 +64,37 @@ The colours that have been used are contrasting colours, this meets the users re
 
 - #5fad56 this is a green colour that has been used to add more detail to the website to enhance the visuals of the website and break up different sections.
 
-- 
+- #A0CED9 this is a light blue colour used in the body to make a universal colour across the website.
 
+- #fff is a white colour that has been used to define the writing against the dark background that has been used, this allows the text to be very visable and easy to read.
+
+- #2f2631 this is a dark pink colour that has been used for the background of the scoreboard which again uses #fff for the text this allows for a more visable text.
+
+- darkgoldenrod this is a dark yellow colour that has been used as one of the buttons to allow for a distinct difference in buttons.
+
+- darkgreen this is a green colour that has been used as one of the buttons to allow for a distinct difference in buttons.
+
+- #EFB920 this is a yellow colour that has been used as one of the buttons to allow for a distinct difference in buttons.
+
+- #23BBBB this is a light blue colour that has been used as one of the buttons to allow for a distinct difference in buttons.
+
+- #654555 this is a dark pink colour that has been used as one of the buttons to allow for a distinct difference in buttons.
+
+- #446556 this is a lighter green colour that has been used as one of the buttons to allow for a distinct difference in buttons.
+
+- #4050e4 this is another blue colour that has been used as one of the buttons to allow for a distinct difference in buttons.
 ## References:
 ### Coding:
  https://getbootstrap.com/docs/4.2/components/dropdowns/
- dropdown menu and links
- MSP1
- jswithjest
+ The above link is to the dropdown menu and links page that I have used to help with the dropdown menu and the relative links.
+
+ I have also used code from my MSP1 such as the media queries and have used MSP1 to help structure the pages of the website.
+ 
+ I have used some code from jswithjest from the testing page this is so that the code is structured correctly and so that I could test different elements to make sure they are working as intended. 
 
 ### Images:
-
+![generic_simon_game](/assets/images/pngwing.com.png)
+This is an image from a website called pngwing.com, which has been used as it allows for the free use of stock images. This is the only image that has been used on the project apart from screenshots from the project itself.
 
 ## Testing:
 To test the website for this project I will be using jest to help with testing to show that the code is working as intended and it will also show if a test fails, using jest to test the code helps with predetermining what different errors may occur due to the use of JavaScript.
@@ -124,9 +144,7 @@ Other bugs that have been encountered is when deciding how to code the different
 
 ![randomisation_code](/assets/images/randomisationCode.PNG)
 
-Another bug that has been encountered was that the mobile responsiveness didn't fully work properly as the buttons didn't fall into place when screen size was reduced.  
-
-
+Another bug that has been encountered was that the mobile responsiveness didn't fully work properly as the buttons didn't fall into place when screen size was reduced, the issue that was causing this was syntax errors. I was adding the syntax ; to the end of each of the end brakets this cause the code to be non-readable for the webpage. 
 
 
 ## Limitations:

@@ -37,7 +37,6 @@ h4 {
 
 .socialLinks {
     float: right;
-    color: #119822;
     margin-right: 50px;
 }
 
@@ -79,22 +78,6 @@ h4 {
 
 .gameExplaination > p {
     margin: 10px;
-}
-
-.red {
-    background-color: red;
-}
-
-.blue {
-    background-color: blue;
-}
-
-.green {
-    background-color: green;
-}
-
-.yellow {
-    background-color: yellow;
 }
 .colour {
     width: 100%;
@@ -231,14 +214,6 @@ h1 {
     left: -140px;
 }
 
-.colour8 {
-    height: 900px;
-    width: 900px;
-    background-color: #cf3d10;
-    top: -75px;
-    left: -190px;
-}
-
 .flash {
     opacity: 0.6;
 }
@@ -249,9 +224,14 @@ h1 {
 
 /*--screen responsive--*/
 @media screen and (max-width:943px){
-    h1 {
+    .gameName h1 {
+        font-size: xx-large;
+    }
+
+    .n {
         top: 12.5%;
-        left: 1%;
+        height: max-content;
+        text-align: center;
         position: fixed;
     }
 
@@ -304,6 +284,7 @@ h1 {
 
     .btn {
         padding: 0;
+        margin-bottom: 2%;
     }
 
     .btn-group-lg>.btn, .btn-lg{
@@ -338,59 +319,60 @@ h1 {
         font-size: 1.5em;
         top: -5%;
         left: -15%;
+        margin: 5%;
     }
 
     .colour1 {
-        height: 125px;
-        width: 125px;
+        height: 175px;
+        width: 175px;
         background-color: darkgoldenrod;
         top: 20%;
         left: 25%;
     }
     
     .colour2 {
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         background-color: darkgreen;
         top: 25%;
         left: 29%;
     }
     
     .colour3 {
-        height: 75px;
-        width: 75px;
+        height: 125px;
+        width: 125px;
         background-color: #EFB920;
         top: 30%;
         left: 34%;
     }
     
     .colour4 {
-        height: 50px;
-        width: 50px;
+        height: 100px;
+        width: 100px;
         background-color: #23BBBB;
         top: 35%;
         left: 39%;
     }
     
     .colour5 {
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
         background-color: #654555;
         top: 15%;
         left: 20%;
     }
     
     .colour6 {
-        height: 175px;
-        width: 175px;
+        height: 225px;
+        width: 225px;
         background-color: #446556;
         top: 11%;
         left: 15%;
     }
     
     .colour7 {
-        height: 200px;
-        width: 200px;
+        height: 250px;
+        width: 250px;
         background-color: #4050e4;
         top: 6%;
         left: 11%;
