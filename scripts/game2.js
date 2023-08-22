@@ -6,7 +6,7 @@ let game = {
     lastButton: "",
     tInProgress: false,
     choices: ["btn1", "btn2", "btn3", "btn4", "btn5"]
-}
+};
 
 function newGame() {
     game.current = []; /*takes the game object and selects specific objects from the game object and assigns a new value*/

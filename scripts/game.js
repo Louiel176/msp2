@@ -6,7 +6,7 @@ let game = {
     lastButton: "",
     tInProgress: false,
     choices: ["btn1", "btn2", "btn3", "btn4"]
-}
+};
 
 function newGame() {
     game.current = []; /*takes the game object and selects specific objects from the game object and assigns a new value*/
@@ -83,4 +83,4 @@ function Score() {
 
 
 
-module.exports = {game, newGame, addTurn, turns, lights, userTurn, Score} // Exports values from the JS file
+module.exports = {game, newGame, addTurn, turns, lights, userTurn, Score}; // Exports values from the JS file

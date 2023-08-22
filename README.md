@@ -203,6 +203,8 @@ With the use of a HTML validator the project has been updated so that the HTML i
 
 With the use of a CSS validator the project has been confirmed that the CSS was valid, the CSS validator that has been used is ![CSS validator](https://jigsaw.w3.org/css-validator/)
 
+With the use of a JS validator the project has been confirmed that the JS was valid, the JS validator that has been used is ![JS validator](https://jshint.com)
+
 
 
 ### User tests:
@@ -212,3 +214,12 @@ With user testing the feedback that was returned is the level 5 didn't fit on th
 
 ## Deployment:
 
+With the deployment of the website I have come across a bugs one of which being that the website itself does not seem to be linked but once checking the code the CSS sheet is linked. Even though this has caused the game to not appear, I have tested that the JavaScript is working when the new button is clicked the JavaScript in the inspect element tab is active. To fix the error that was caused I had to adjust the code which was, "/assets/css/style.css", this had to be changed to, "assets/css/style.css", this syntax error caused the file path to be wrong and created the error. 
+
+The live deployment of my website is linked here : [Live page deployment]("https://https://louiel176.github.io/msp2/index.html)
+
+The aim of the project was to make an interactive game website the idea came from the game Simon. The idea of the website was to make 3 main pages, the landing page, the how to play page and the game page. The game page is actually comprised of 4 different pages which when the level dropdown button is click and a different level is selected it will load a seperate page to adjust for the amount of buttons there should be on that level. 
+
+The project began with the template from code institute with the use of bootstrap 4. The website was built with some help from the links above on the coding references, once the website was built. I used developer tools to test the website for errors that might have occured with the JavaScript for instance when initiating the game I used the developer tools to show me live updates on what lines of code are activated. I also used the developer tools to adjust different sizes in the elements by doing this it has allowed me to adjust the elements to fit better on the website. I also used the JavaScript frame work jest, that was to check whether the JavaScript code worked as intended. Another tool that I have used is a framework called jest this is a JavaScript framework. This has been used to check whether the JavaScript code works as intended. Doing this allows the project to be checked while its being coded, this is beneficial due some errors may not be recognisable. This helped allow for multiple tests to be run by code to check that the code is working as intended.
+
+To deploy the project as a live website, Github pages has been used. To deploy the website using Github pages, go to the github repository, click the setting tab, then click the pages tab on the left hand side and click save. This will then deploy a live website which will be accessable after a few minutes. To access the deployed website click the link that will show up when the project is deployed.
