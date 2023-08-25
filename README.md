@@ -214,9 +214,9 @@ With user testing the feedback that was returned is the level 5 didn't fit on th
 
 ## Deployment:
 
-With the deployment of the website I have come across a bugs one of which being that the website itself does not seem to be linked but once checking the code the CSS sheet is linked. Even though this has caused the game to not appear, I have tested that the JavaScript is working when the new button is clicked the JavaScript in the inspect element tab is active. To fix the error that was caused I had to adjust the code which was, "/assets/css/style.css", this had to be changed to, "assets/css/style.css", this syntax error caused the file path to be wrong and created the error. 
+With the deployment of the website I have come across a bugs one of which being that the website itself does not seem to be linked but once checking the code the CSS sheet is linked. Even though this has caused the game to not appear, I have tested that the JavaScript is working when the new button is clicked the JavaScript in the inspect element tab is active. To fix the error that was caused I had to adjust the code which was, "/assets/css/style.css", this had to be changed to, "assets/css/style.css", this syntax error caused the file path to be wrong and created the error. Another issues that came up was with the image, again the issue was the same as the previous one with a syntax error. The link had an extra "/" which was not needed and caused the image to not show up.
 
-The live deployment of my website is linked here : [Live page deployment]("https://https://louiel176.github.io/msp2/index.html)
+The live deployment of my website is linked here : [Live page deployment]("https://louiel176.github.io/msp2/index.html)
 
 The aim of the project was to make an interactive game website the idea came from the game Simon. The idea of the website was to make 3 main pages, the landing page, the how to play page and the game page. The game page is actually comprised of 4 different pages which when the level dropdown button is click and a different level is selected it will load a seperate page to adjust for the amount of buttons there should be on that level. 
 
